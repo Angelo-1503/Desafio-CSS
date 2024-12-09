@@ -1,0 +1,129 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 47px 0 0 42px;
+}
+
+.link-header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    color: #17233D;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+    margin-right: 36px;
+    text-align: center;
+}
+
+.img {
+    width: 595px;
+    height: 500px;
+    margin: 163px 0 0 121px;
+    display: inline-block;
+}
+
+.button-top{
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+}
+
+h1{
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    width: 493px;
+}
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 493px;
+    margin: 47px 0 55px 0;
+}
+
+#link-footer{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+
+    .link-header {
+        display: none;
+    }   
+
+    button {
+        width: 91px;
+        height: 31px;
+        margin-left: 284px;
+        margin-right: 15px;
+        display: block;
+    }
+
+    h1 {
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        width: 278px;
+        margin: 124px 55px 29px 57px;
+        display: block;
+    }
+
+    p {
+        color: #4B505A;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        width: 304px;
+        margin: 0 43px 26px 43px;
+        display: block;
+    }
+
+    #link-footer{
+        width: 112px;
+        height: 27px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin: 0 139px 59px 139px;
+    }
+
+    .img{
+        position: static;
+        max-width: 90%
+    }
+    
+
+}
+
